@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* hover */
+.image {
+  position: relative;
+  width: 200px;
+}
+
+.overlay {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay:hover {
+  opacity: 0.5;
+}
+
+img {
+  width: 200px;
+}
+
+.column {
+  float: left;
+  margin-left: 20px;
+}
+
+.grid {
+  width: 960px;
+  margin: 0 auto;
+}
+
